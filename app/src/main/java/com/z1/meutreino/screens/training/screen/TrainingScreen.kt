@@ -136,8 +136,8 @@ fun TrainingScreen(
                     Button(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height(56.dp)
-                            .padding(horizontal = 16.dp),
+                            .padding(16.dp)
+                            .height(56.dp),
                         shape = MaterialTheme.shapes.large,
                         colors = ButtonDefaults.buttonColors(
                             containerColor = MediumSeaGreen

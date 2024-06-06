@@ -100,7 +100,7 @@ fun WorkoutCard(
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.surface
         ),
-        border = BorderStroke(0.dp, MaterialTheme.colorScheme.primary),
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary),
         onClick = { /*TODO*/ }
     ) {
         Column(
